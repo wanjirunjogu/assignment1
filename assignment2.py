@@ -1,0 +1,18 @@
+firstname = input("Enter your first name :")
+secondname = input("Enter your second name :")
+country = input("Enter your country of origin:")
+profession = input("Enter the nature of your current job:")
+email = firstname + secondname + '@' + firstname.lower() +secondname.lower() + '.com'
+phone = input("Enter your phone number:")
+city = input("Enter your current city of residence:")
+address = input("Enter your mailing/ physical adsress:")
+
+print("=======================================================================")
+print("Name :", firstname + " "+ secondname)
+print("Country:" ,country)
+print("Profession:", profession)
+print("Email:", email)
+print("Phone:", phone)
+print("City:", city)
+print("Address:" ,address)
+print("=======================================================================")

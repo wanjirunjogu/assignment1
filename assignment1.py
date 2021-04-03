@@ -1,0 +1,6 @@
+names = input("Enter first and last name :")
+print(names)
+print()
+print("What are your goals for this class - long term?")
+goals = input("What would you be ... when all is said and done ?")
+print(goals)
